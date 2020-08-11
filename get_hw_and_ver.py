@@ -1,7 +1,7 @@
 import ipaddress
 
 
-from src.models.file_export.excel.excel import Excel
+from excel import Excel
 from napalm import get_network_driver
 from openpyxl import load_workbook
 
